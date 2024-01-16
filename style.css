@@ -7,6 +7,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  background-color: #003140;
+  color: white;
 }
 
 .heading-1 {
@@ -86,4 +88,51 @@ body {
 .container {
   border: none;
   align-items: center;
+}
+
+.Success-bg{
+  background-color: #003140;
+  color: aliceblue;
+}
+
+@media (max-width: 800px) {
+  
+  .heading-1 {
+      font-size: 2rem;
+  }
+
+  .input-container {
+    padding: 8px 0;
+  }
+  
+  .input {
+    font-size: 0.7rem;
+    padding: 8px 4px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    width: 16rem;
+  }
+
+  .button{
+    margin-top: 1rem;
+  }
+
+  .material-icons-outlined{
+    height: auto;
+  }
+
+  .Login{
+    font-size: large;
+    margin-top: 5rem;
+  }
+
+  .success-img{
+    height: 20rem;
+    margin-top: 2rem;
+  }
 }
